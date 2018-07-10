@@ -1,0 +1,374 @@
+@font-face {
+	font-family: "zorque";
+	src: url("../font/zorque.ttf");
+}
+
+@font-face {
+	font-family: "ferrum";
+	src: url("../font/ferrum.otf");
+}
+
+@keyframes fadein{
+from{opacity: 0;}
+to{opacity: 0.9;}
+}
+
+* {
+	margin:0;
+	padding:0;
+	
+	
+}
+
+
+.container-background
+{
+	background-image: url("../images/background-war-2.jpg"); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	padding-top: 1px;
+	width: 100vw;
+	height: 100vh;
+}
+
+
+#canvasLogin
+{
+	width: 100vw;
+	height: 60vh;
+}
+
+.container-login {
+	width: 400px;
+	height: 40vh;
+	margin: auto;
+	margin-top: 5%;
+	text-align: center;
+	display: none;
+	font-family: "ferrum";
+	
+}
+
+.container-login h1 {
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.container-background h1 {
+    font-size: 3em;    
+    font-weight: bold;
+    z-index: 3;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+	background-color: antiquewhite;
+}
+
+.error-div {
+	border: 1px solid red;
+	padding:5px;
+	border-radius: 3px;
+	background-color: pink;
+	margin-bottom: 20px;
+	color:red;
+}
+
+#container-info {
+	width: 20%;
+	margin: auto;
+	margin:  0px 10px;
+	float: left;
+	text-align: center;
+	font-family: "ferrum";
+	border: solid white 2px;
+	background-color: black;
+	opacity: 0.7;
+}
+
+#container-info h1{
+	font-family: "zorque";
+	padding: 15px;
+	border-bottom: dotted white 2px;
+}
+
+.info {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	width: 200px;
+	margin: auto;
+	font-size: 25px;
+	margin: 20px 0px;
+}
+
+
+.info p{
+	width: 50%;
+	margin: auto;
+}
+
+#container-list{
+
+    width: 70%;
+    height: 85%;
+	margin: auto;
+	margin-bottom: 20px;	
+	margin-left: 50px;
+	float: left;
+	background-color: black;
+	opacity: 0.7;
+	color: floralwhite;
+	border: solid white 2px;
+	
+}
+
+#container-list h1 
+{
+	text-align: center;
+	font-family: "zorque";
+	padding: 15px;
+	
+	border-bottom: dotted white 2px;
+}
+
+#list-server
+{
+	width: 95%;
+    height: 70%;
+	overflow-y: scroll;
+	margin: auto;
+}
+
+/*
+ *  STYLE 16
+ */
+
+ .style-16::-webkit-scrollbar-track
+ {
+	 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	 background-color: #F5F5F5;
+	 border-radius: 10px;
+ }
+ 
+ .style-16::-webkit-scrollbar
+ {
+	 width: 10px;
+	 background-color: #F5F5F5;
+ }
+ 
+ .style-16::-webkit-scrollbar-thumb
+ {
+	 border-radius: 10px;
+	 background-color: #FFF;
+	 background-image: -webkit-linear-gradient(top,
+											   #e4f5fc 0%,
+											   #bfe8f9 50%,
+											   #9fd8ef 51%,
+											   #2ab0ed 100%);
+ }
+
+
+
+.title
+{
+	width: 95%;
+	margin: auto;
+	display: flex;
+	direction: row;
+	justify-content: space-around;
+	font-family: "zorque";
+	margin-bottom: 10px;
+}
+
+.title p {
+	width: 20%;
+	margin: auto;
+	text-align: center;
+}
+
+.title p:first-child {
+	padding-left: 30px;
+}
+
+.title p:last-child{
+	padding-right: 55px;
+}
+
+
+#canvas{
+	display: block;
+	background-image: url("../images/widescreen-war-background-1920x-WTG3117140.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+	margin: auto;
+	border: solid black 5px;
+}
+
+
+
+#lobby{
+	width: 100vw;
+	height: 100vh;
+	color: #DDDDDD  ;
+	background-image: url("../images/lobbyBg.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-top: 70px;
+	display: none;
+}
+
+#canvas-lobby
+{	
+	width: 100vw;
+	height: 80vh;
+	position: absolute;
+	top: 88vh;
+}
+.list{
+	opacity: 0.8;
+	margin: 5px 10px ;
+	padding: 10px 10px;
+	font-family: "ferrum";
+	display: flex;
+	direction: row;
+	justify-content: space-around;
+	border: 1px white solid;
+	background-color: #0074D9;
+}
+
+.list p {
+	width: 20%;
+	margin: auto;
+	text-align: center;
+}
+
+.list:hover{
+	opacity: 1;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+	display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: green;
+	color: white;
+}
+
+a {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-family: "zorque";
+}
+
+a+a{
+	position: absolute;
+	top: 10px;
+	left: 170px;
+}
+
+#container-button
+{
+	position: absolute;
+	top: 7vh;
+	left: 40vw;
+}
+#container-button button
+{
+	margin: 10px;
+}
+
+
+#loading
+{
+	width: 100vw;
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 200px;
+	box-sizing: border-box;
+	background: #333;
+}
+
+.percent-count
+{
+	width: 450px;
+	height: 50px;
+	margin: auto;
+	padding: 50px;
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+}
+
+#volume{
+	width : 30px;
+	height : 30px;
+	background-image: url("../images/volumeOn.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 95%;
+	top: 5%;
+}
+
+.progressBar
+{
+	width: 506px;
+	height: 26px;
+	background-color: #bbb;
+	border-radius: 13px;
+	margin: 50px auto;
+	padding: 3px;
+}
+
+.progressCurrent
+{
+	width: 500px;
+	height: 20px;
+	background-color: dodgerblue;
+	border-radius: 10px;
+}
+
+#deconnexion
+{
+	display: none;
+}
+
+#gameover
+{
+	width: 40vw;
+	height: 30vh;
+	position: absolute;
+	background-image: url("../images/gameover.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	top: 30vh;
+	left: 30vw;
+	opacity: 0;
+	border-radius: 15px;
+}
+
+#win
+{
+	width: 40vw;
+	height: 30vh;
+	position: absolute;
+	background-image: url("../images/win.png"); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	top: 30vh;
+	left: 30vw;
+	opacity: 0;
+	border-radius: 15px;
+}

@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 98%;
+	margin: auto;
+}
+#map_view{
+	
+	height: auto;	
+	display: flex;
+	justify-content: center;
+	background-image: url(../images/wp.jpg);
+}
+#sidebar{
+	background-color: beige;
+	height: auto;
+	padding: 5px;
+}
+.cube{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;
+	background-color: rgb(153, 153, 102);
+	margin: 3px;
+	border-radius: 10px;
+}
+.cube:hover{
+	box-shadow: 2px 2px 20px gold;
+	cursor: pointer;
+
+}
+#center{
+	align-self: center;
+}
+.mur{
+	border: 2px solid red;
+	box-shadow: 2px 2px 20px red;
+}
+.murInverse{
+	border: 2px solid green;
+	box-shadow: 2px 2px 20px green;
+}
+.murMobile{
+	border: 2px solid blue;
+	box-shadow: 2px 2px 20px blue;
+}
+.arbre{
+	text-align: center;
+	padding-top: 6px;
+}
+.joueur1{
+	text-align: center;
+	padding-top: 6px;
+}
+.joueur2{
+	text-align: center;
+	padding-top: 6px;
+}

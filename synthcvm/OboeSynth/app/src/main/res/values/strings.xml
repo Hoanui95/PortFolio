@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ProtoSynth</string>
+    <string name="scale">scale:</string>
+    <string name="cutoff">Cutoff</string>
+    <string name="resonance">Resonance</string>
+    <string name="attack">Attack</string>
+    <string name="decay">Decay</string>
+    <string name="sustain">Sustain</string>
+    <string name="release">Release</string>
+    <string name="LFO">LFO</string>
+    <string name="drive">Drive</string>
+    <string name="mode">Mode</string>
+    <string name="treshold">Treshold</string>
+    <string name="mix">Mix</string>
+    <string-array name="preset">
+        <item>...</item>
+        <item>Guitar électrique</item>
+        <item>Flute traversière</item>
+        <item>Saxophone</item>
+        <item>Mario</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+XiDuo ZHANG -> Base de donn�es 22%
+Hoanui SARTORE-DEVASSE->Modifications dans Tankem 34%
+Vincent VINH->Logiciels de gestion des joueur 22%
+Lyes FERRAHI->Logiciels de gestion des joueur 22%
+
+- Aucun retard non-justifi�
+- Les petits retards de 5-10 minutes sont rattrap�s par les temps suppl�mentaires 
+
+ Commentaires:
+	- Remplacer les triggers par des procédures dans la BD
+	- Retourner les noms calculer et les niveaux par procédures

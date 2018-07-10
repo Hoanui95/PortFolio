@@ -1,0 +1,51 @@
+---IDÉES DE CAS D'USAGES---
+
+ - Créer une ville
+ - Construire des mines
+ - Construire Camps de bûcherons
+ - Construire Habitations
+ - Construire Fermes
+ - Construire Centrales électriques
+ - Construires Bases, Casernes militaiers, etc.
+ - Construire Infrastructures Loisirs
+ - Construire Musées et Universités
+ - Construire Bases Fusées / Missiles
+ - Construire Marché public
+	Vendre Ressources contre crédits
+	Bourse
+		Vente /a Achat
+ - Chat
+	Public
+	Privé
+ - Demande de Servitude
+ - Difficulté croissante
+ - Déplacer un vaisseau
+ - Construire un vaisseau (Différents types)
+ - Améliorer Ville
+ - Créer Soldats
+ - Créer Chars (véhicules)
+ - Faire attaquer les unités
+ - Création de stations spatiales
+ - Faire attaquer les vaisseaux
+ - Station de défense (tourelle)
+ - Restrictions de développement selon le niveau
+ - Niveau de consommation des habitants
+ - Mass Relate
+ - Vénérer un dieu -> Profits et Bénéfices
+ - Sacrifices
+ - Construire Église
+ - Sectes
+ - Catapulter Habitants dans le soleil
+ - Ségrégation
+ - Engager les mercenaires
+ - Syndicats de populations
+ - Anciennes ruines avec technologies avancées
+ - Vaisseaux espions (undercover)
+ - Vaisseaux éclaireurs
+ - Aspirer Énergie d’une étoile (cher, mais beaucoup d’énergie)
+ - Notion d’énergie (accumuler, stocker(batteries))
+ - Barrage hydroélectrique
+ - Rivières sur les planètes
+ - Kidnapper les extraterrestres (technologies, rançons)
+ - Arme ultime (blueprints -->artefact)
+
