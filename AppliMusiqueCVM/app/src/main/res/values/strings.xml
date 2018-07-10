@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MP3_B43</string>
+    <string name="liste_chanson">Liste de chanson</string>
+    <string name="liste_artiste">Liste d\'artiste</string>
+    <string name="liste_lecture">Liste de lecture</string>
+    <string name="boutonCreer">CREER</string>
+    <string name="boutonCreerListe">Créer une liste</string>
+    <string name="textListe">Vos liste(s) de lecture :</string>
+    <string name="activité_chanson">Liste Chanson</string>
+    <string name="activité_diffusion">MP3</string>
+    <string name="activité_lecture">Liste Lecture</string>
+    <string name="activité_atiste">Liste Artiste</string>
+    <string name="activité_creerLecture">Creer Liste Lecture</string>
+
+</resources>
